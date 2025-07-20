@@ -6,5 +6,6 @@
     <Grid>
         <TextBlock Text="Welcome to ColdCash Dashboard" Style="{StaticResource HeaderTextBlockStyle}"
                    HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Content="Manage Accounts" Click="Accounts_Click"/>
     </Grid>
 </Page>

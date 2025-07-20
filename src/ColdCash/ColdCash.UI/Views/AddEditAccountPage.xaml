@@ -1,0 +1,13 @@
+<Page
+    x:Class="ColdCash.UI.Views.AddEditAccountPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="15">
+        <TextBlock Text="Add/Edit Account" Style="{StaticResource HeaderTextBlockStyle}"/>
+        <TextBox x:Name="NameBox" PlaceholderText="Account Name" Width="300"/>
+        <TextBox x:Name="BalanceBox" PlaceholderText="Current Balance" Width="300"/>
+        <TextBox x:Name="CurrencyBox" PlaceholderText="Currency (e.g. USD)" Width="300"/>
+        <Button x:Name="SaveButton" Content="Save" Width="300" Click="SaveButton_Click"/>
+    </StackPanel>
+</Page>

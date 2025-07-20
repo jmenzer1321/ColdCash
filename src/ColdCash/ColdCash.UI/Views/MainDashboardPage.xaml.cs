@@ -1,4 +1,5 @@
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
 
 namespace ColdCash.UI.Views
 {
@@ -8,5 +9,8 @@ namespace ColdCash.UI.Views
         {
             InitializeComponent();
         }
+
+        private void Accounts_Click(object sender, RoutedEventArgs e)
+            => Frame.Navigate(typeof(AccountsPage));
     }
 }
