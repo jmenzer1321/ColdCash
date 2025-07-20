@@ -1,0 +1,16 @@
+## Visual Studio & OS noise
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
+Thumbs.db
+*.tmp
+*.tmp_proj
+*.pdb
+*.cache
+*.psess
+*.vsp
+*.vspx
+*.sap

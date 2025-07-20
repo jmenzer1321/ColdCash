@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ColdCash.UI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ColdCash.UI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
